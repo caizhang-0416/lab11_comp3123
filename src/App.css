@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+
+.card {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  border-radius: 10px 10px 0 0;
+}
+
+button {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.container {
+  padding: 2rem;
+}
+
